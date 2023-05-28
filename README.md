@@ -5,4 +5,4 @@ This is how i actually booted up my TENDA AC10 router after a wrong firmware upd
 
 # FIRMWARE SOURCE
 
-(tenda firmware[https://www.tendacn.com/in/download/default.html])
+[tenda firmware(https://www.tendacn.com/in/download/default.html)]
