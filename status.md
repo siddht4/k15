@@ -1,24 +1,26 @@
 # previous status 
-firmware -1.0.0.8
-status - bricked
+
+|firmware | 1.0.0.8 |
+|status   | bricked 
 
 
 # searching for a working firmware or something which loads up
 
 # CLOSEST RELATIVE
 
-model            relation    firmware           firmware status
-
-TENDA AC10 V3  -- self                              FAIL
-TENDA AC10 V2  -- closest                           FAIL
-TENDA AC10 V1  -- closest                           FAIL
-TENDA AC10 V4  -- closest                           FAIL
-TENDA AC10U    -- same family + usb                 Working
+|model          |  relation         | firmware            |firmware status |
+|---------------|-------------------|---------------------|----------------|
+|TENDA AC10 V3  | self              |                     | FAIL   |
+|TENDA AC10 V2  | closest           |                     |FAIL    |
+|TENDA AC10 V1  | closest           |                     |FAIL    |
+|TENDA AC10 V4  | closest           |                     |FAIL    |
+|TENDA AC10U    | same family + usb |                     |Working |
 
 
 # WORKING 
 
-TENDA AC10U      
+TENDA AC10U 
+
 US_AC10UV2.0re_V16.03.16.12_multi_TDE01.bin
 
 US_AC10UV2.0re_V16.03.16.8_multi_TDE01.bin
@@ -30,15 +32,15 @@ As a relative closer to the orifignal is working with some issues.Let the router
 
 #WORKING AC10U
 
-NAME                      BOOL
-
-BOOT                      YES
-DASHBOARD                 YES
-WIFI/SSID 2.4             YES
-WIFI/SSID 5               YES
-CONTROL PANEL             YES
-WIRELESS REPEATER 2.4     NO
-WIRELESS REPEATER 5       YES
+| NAME                 |      BOOL |
+|----------------------|-----------|
+|BOOT                  |     YES   |
+|DASHBOARD             |     YES   |
+|WIFI/SSID 2.4         |     PARTIAL   |
+|WIFI/SSID 5           |     YES   |
+|CONTROL PANEL         |     YES   |
+|WIRELESS REPEATER 2.4 |     NO    |
+|WIRELESS REPEATER 5   |     YES   |
 
 
 
@@ -58,12 +60,12 @@ SO for the time being if other firmware fails,still I have one which can boot up
 
 #WORKING A21
 
-NAME                      BOOL
-
-BOOT                      YES
-DASHBOARD                 YES
-WIFI/SSID 2.4             YES
-WIFI/SSID 5               YES
-CONTROL PANEL             YES
-WIRELESS REPEATER 2.4     NO
-WIRELESS REPEATER 5       NO
+|NAME                 |     BOOL |
+|---------------------|----------|
+|BOOT                 |     YES  |
+|DASHBOARD            |     YES  |
+|WIFI/SSID 2.4        |     YES  |
+|WIFI/SSID 5          |     YES  |
+|CONTROL PANEL        |     YES  |
+|WIRELESS REPEATER 2.4|     NO   |
+|WIRELESS REPEATER 5  |     NO   |
