@@ -19,6 +19,8 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 
 # extracting #1
 
+command : binwalk -e file.bin
+
 
 # binwalk #2
 
@@ -39,6 +41,12 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 6813281       0x67F661        Intel x86 or x64 microcode, sig 0x0205080d, pf_mask 0x14191e21, 1B1E-12-17, rev 0x1f000000, size 1
 6813297       0x67F671        Intel x86 or x64 microcode, sig 0x0305090e, pf_mask 0x161c2225, 1E21-14-19, rev 0x22000000, size 1
 
+# Extracting #2 
+#in parts
+
+command : dd if=2858.bin of=1.bin bs=1 skip=$(printf "%d" 0xFFC40) count=1047616
+ 
+ 
 
 
 
